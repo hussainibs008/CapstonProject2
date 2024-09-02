@@ -1,0 +1,80 @@
+#NavHeader,footer{
+    background-color: #1925a0;
+}
+
+Section{
+    background-color: #ccecfc;
+    padding: 20px;
+    min-height: 100vh;
+    align-content: center;
+}
+
+#DivSectionTop{
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    margin: 0%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Container4EducationRow{
+    gap: 3px;
+    align-items: start;
+}
+.anEduBox{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center; 
+
+    border-style: solid;
+    border-radius: 2rem;
+    padding: 0;
+}
+
+.anEduBox>p,hr{
+    margin: 0%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.CourseBox{
+    display: flex;
+    align-items: center;
+    background-color: #050a30;
+    color: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.CourseNameShort{
+    padding: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+    width: fit-content;
+}
+.CourseNameFull{
+    text-align: start;
+    font-weight: bold;
+}
+img{
+    object-fit: cover;
+}
+
+
+@media (min-width: 768px){
+    .text-md-left{
+        text-align: left !important;
+    }
+    .timeServed{
+        text-align: end;
+    }
+}
+
+footer{
+    color: white;
+}
+
